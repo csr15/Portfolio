@@ -27,15 +27,6 @@ body {
   overflow-x: hidden;
 }
 
-#loader {
-  width: 100vw;
-  height: 100v;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: red;
-}
-
 img,
 svg {
   width: 100%;
@@ -945,6 +936,7 @@ p {
 
 .body__wrapper .footer .section__wrapper .footer__section .footer__item .footer__wrapper h5 {
   color: #6e6e6e;
+  font-weight: 500;
 }
 
 .body__wrapper .footer .section__wrapper .footer__section .mail {
