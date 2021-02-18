@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="524" height="304.888" viewBox="0 0 524 304.888">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.044" x2="0.5" y2="0.888" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.302"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.051"/>
+      <stop offset="0.051" stop-opacity="0.4"/>
+      <stop offset="0.5" stop-opacity="0.502"/>
+      <stop offset="0.959" stop-opacity="0.4"/>
+      <stop offset="1" stop-opacity="0.051"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.102"/>
+      <stop offset="0.051" stop-opacity="0.929"/>
+      <stop offset="0.5"/>
+      <stop offset="0.959" stop-opacity="0.8"/>
+      <stop offset="1" stop-opacity="0.102"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Laptop_Shape" data-name="Laptop Shape" d="M469.165,284.486h49.283a.551.551,0,0,1,.552.551v7.56c-3.585.96-15.058,6.271-43.912,6.228q-28.855-.042-213.657,0H46.881c-33.345,0-42.636-5.038-46.881-6.228v-7.56a.551.551,0,0,1,.551-.551H50.408c-.725-2.565-1.045-6.009-1.045-11.141V22c0-9.3.624-13.313,3.354-16.345C55.852,2.184,60.938,0,70.871,0H450.424c8.7,0,12.741,1.8,15.846,4.966,3.024,3.087,4.195,7.484,4.195,17.038V273.346c0,5.278-.462,8.66-1.3,11.141Z" fill="#e4e4e4"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <filter id="Oval" x="262.926" y="10.243" width="3.913" height="4.413" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Lens" x="262.403" y="9.72" width="4.955" height="4.956" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="0.5" y1="1" x2="0.5" y2="0.667" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.302"/>
+      <stop offset="1" stop-opacity="0.149"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Union_8" data-name="Union 8" d="M475.087,14.341c-28.855-.042-213.657,0-213.657,0H46.881C13.531,14.341,4.242,9.3,0,8.111V.551A.551.551,0,0,1,.551,0h517.9A.552.552,0,0,1,519,.551v7.56c-3.57.956-14.968,6.228-43.567,6.229Z" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.102"/>
+      <stop offset="0.101" stop-opacity="0"/>
+      <stop offset="0.903" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0.098"/>
+    </linearGradient>
+    <filter id="Line" x="4.224" y="291.711" width="520.551" height="3.931" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-7" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.149"/>
+      <stop offset="0.053" stop-opacity="0.051"/>
+      <stop offset="0.156" stop-opacity="0"/>
+      <stop offset="0.842" stop-opacity="0"/>
+      <stop offset="0.947" stop-opacity="0.047"/>
+      <stop offset="1" stop-opacity="0.149"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.102"/>
+      <stop offset="0.068" stop-opacity="0.051"/>
+      <stop offset="0.126" stop-opacity="0"/>
+      <stop offset="0.874" stop-opacity="0"/>
+      <stop offset="0.943" stop-opacity="0.051"/>
+      <stop offset="1" stop-opacity="0.102"/>
+    </linearGradient>
+    <filter id="Center_Bar" x="226.72" y="284.486" width="75.561" height="6.791" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur result="blur-4"/>
+      <feFlood flood-color="#fff" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-9" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0.051"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.078"/>
+      <stop offset="1" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <g id="laptop" transform="translate(-320 -4364)">
+    <g id="Group_520" data-name="Group 520" transform="translate(150 1953)">
+      <circle id="Ellipse_3077" data-name="Ellipse 3077" cx="4" cy="4" r="4" transform="translate(170 2450)" fill="#ff518a"/>
+      <circle id="Ellipse_3078" data-name="Ellipse 3078" cx="4" cy="4" r="4" transform="translate(193 2450)" fill="#ff518a"/>
+      <circle id="Ellipse_3079" data-name="Ellipse 3079" cx="4" cy="4" r="4" transform="translate(216 2450)" fill="#ff518a"/>
+      <circle id="Ellipse_3080" data-name="Ellipse 3080" cx="4" cy="4" r="4" transform="translate(239 2450)" fill="#ff518a"/>
+      <circle id="Ellipse_3081" data-name="Ellipse 3081" cx="4" cy="4" r="4" transform="translate(262 2450)" fill="#ff518a"/>
+      <circle id="Ellipse_3082" data-name="Ellipse 3082" cx="4" cy="4" r="4" transform="translate(170 2473)" fill="#ff518a"/>
+      <circle id="Ellipse_3083" data-name="Ellipse 3083" cx="4" cy="4" r="4" transform="translate(193 2473)" fill="#ff518a"/>
+      <circle id="Ellipse_3084" data-name="Ellipse 3084" cx="4" cy="4" r="4" transform="translate(216 2473)" fill="#ff518a"/>
+      <circle id="Ellipse_3085" data-name="Ellipse 3085" cx="4" cy="4" r="4" transform="translate(239 2473)" fill="#ff518a"/>
+      <circle id="Ellipse_3086" data-name="Ellipse 3086" cx="4" cy="4" r="4" transform="translate(262 2473)" fill="#ff518a"/>
+      <circle id="Ellipse_3087" data-name="Ellipse 3087" cx="4" cy="4" r="4" transform="translate(170 2496)" fill="#ff518a"/>
+      <circle id="Ellipse_3088" data-name="Ellipse 3088" cx="4" cy="4" r="4" transform="translate(193 2496)" fill="#ff518a"/>
+      <circle id="Ellipse_3089" data-name="Ellipse 3089" cx="4" cy="4" r="4" transform="translate(216 2496)" fill="#ff518a"/>
+      <circle id="Ellipse_3090" data-name="Ellipse 3090" cx="4" cy="4" r="4" transform="translate(239 2496)" fill="#ff518a"/>
+      <circle id="Ellipse_3091" data-name="Ellipse 3091" cx="4" cy="4" r="4" transform="translate(262 2496)" fill="#ff518a"/>
+      <circle id="Ellipse_3092" data-name="Ellipse 3092" cx="4" cy="4" r="4" transform="translate(170 2519)" fill="#ff518a"/>
+      <circle id="Ellipse_3093" data-name="Ellipse 3093" cx="4" cy="4" r="4" transform="translate(193 2519)" fill="#ff518a"/>
+      <circle id="Ellipse_3094" data-name="Ellipse 3094" cx="4" cy="4" r="4" transform="translate(216 2519)" fill="#ff518a"/>
+      <circle id="Ellipse_3095" data-name="Ellipse 3095" cx="4" cy="4" r="4" transform="translate(239 2519)" fill="#ff518a"/>
+      <circle id="Ellipse_3096" data-name="Ellipse 3096" cx="4" cy="4" r="4" transform="translate(262 2519)" fill="#ff518a"/>
+      <circle id="Ellipse_3097" data-name="Ellipse 3097" cx="4" cy="4" r="4" transform="translate(170 2542)" fill="#ff518a"/>
+      <circle id="Ellipse_3098" data-name="Ellipse 3098" cx="4" cy="4" r="4" transform="translate(193 2542)" fill="#ff518a"/>
+      <circle id="Ellipse_3099" data-name="Ellipse 3099" cx="4" cy="4" r="4" transform="translate(216 2542)" fill="#ff518a"/>
+      <circle id="Ellipse_3100" data-name="Ellipse 3100" cx="4" cy="4" r="4" transform="translate(239 2542)" fill="#ff518a"/>
+      <circle id="Ellipse_3101" data-name="Ellipse 3101" cx="4" cy="4" r="4" transform="translate(262 2542)" fill="#ff518a"/>
+      <circle id="Ellipse_3102" data-name="Ellipse 3102" cx="4" cy="4" r="4" transform="translate(170 2565)" fill="#ff518a"/>
+      <circle id="Ellipse_3103" data-name="Ellipse 3103" cx="4" cy="4" r="4" transform="translate(193 2565)" fill="#ff518a"/>
+      <circle id="Ellipse_3104" data-name="Ellipse 3104" cx="4" cy="4" r="4" transform="translate(216 2565)" fill="#ff518a"/>
+      <circle id="Ellipse_3105" data-name="Ellipse 3105" cx="4" cy="4" r="4" transform="translate(239 2565)" fill="#ff518a"/>
+      <circle id="Ellipse_3106" data-name="Ellipse 3106" cx="4" cy="4" r="4" transform="translate(262 2565)" fill="#ff518a"/>
+      <circle id="Ellipse_3107" data-name="Ellipse 3107" cx="4" cy="4" r="4" transform="translate(170 2588)" fill="#ff518a"/>
+      <circle id="Ellipse_3108" data-name="Ellipse 3108" cx="4" cy="4" r="4" transform="translate(193 2588)" fill="#ff518a"/>
+      <circle id="Ellipse_3109" data-name="Ellipse 3109" cx="4" cy="4" r="4" transform="translate(216 2588)" fill="#ff518a"/>
+      <circle id="Ellipse_3110" data-name="Ellipse 3110" cx="4" cy="4" r="4" transform="translate(239 2588)" fill="#ff518a"/>
+      <circle id="Ellipse_3111" data-name="Ellipse 3111" cx="4" cy="4" r="4" transform="translate(262 2588)" fill="#ff518a"/>
+      <circle id="Ellipse_3112" data-name="Ellipse 3112" cx="4" cy="4" r="4" transform="translate(170 2611)" fill="#ff518a"/>
+      <circle id="Ellipse_3113" data-name="Ellipse 3113" cx="4" cy="4" r="4" transform="translate(193 2611)" fill="#ff518a"/>
+      <circle id="Ellipse_3114" data-name="Ellipse 3114" cx="4" cy="4" r="4" transform="translate(216 2611)" fill="#ff518a"/>
+      <circle id="Ellipse_3115" data-name="Ellipse 3115" cx="4" cy="4" r="4" transform="translate(239 2611)" fill="#ff518a"/>
+      <circle id="Ellipse_3116" data-name="Ellipse 3116" cx="4" cy="4" r="4" transform="translate(262 2611)" fill="#ff518a"/>
+    </g>
+    <g id="laptop-2" data-name="laptop" transform="translate(325 4364)">
+      <path id="Shadow" d="M239.677,6.229H477.634S470.85-.042,453.025,0,239.369,0,239.369,0H24.82C8.016,0,0,6.229,0,6.229Z" transform="translate(22.06 298.659)" fill="url(#linear-gradient)"/>
+      <path id="Shadow-2" data-name="Shadow" d="M9.791,0H440.267c.534,0,9.791,1.81,9.791,2.341s-9.256-.414-9.791-.414H9.791C9.257,1.928,0,2.874,0,2.343S9.256,0,9.791,0Z" transform="translate(37.78 297.833)" fill="url(#linear-gradient-2)"/>
+      <path id="Shadow_Copy" data-name="Shadow Copy" d="M9.791,0H442.749c.534,0,9.791,1.81,9.791,2.341s-9.256-.414-9.791-.414H9.791C9.257,1.928,0,2.874,0,2.343S9.256,0,9.791,0Z" transform="translate(37.78 298.108)" fill="url(#linear-gradient-3)"/>
+      <path id="Laptop_Shape-2" data-name="Laptop Shape" d="M469.165,284.486h49.283a.551.551,0,0,1,.552.551v7.56c-3.585.96-15.058,6.271-43.912,6.228q-28.855-.042-213.657,0H46.881c-33.345,0-42.636-5.038-46.881-6.228v-7.56a.551.551,0,0,1,.551-.551H50.408c-.725-2.565-1.045-6.009-1.045-11.141V22c0-9.3.624-13.313,3.354-16.345C55.852,2.184,60.938,0,70.871,0H450.424c8.7,0,12.741,1.8,15.846,4.966,3.024,3.087,4.195,7.484,4.195,17.038V273.346c0,5.278-.462,8.66-1.3,11.141Z" transform="translate(0)" fill="#f6f6f6"/>
+      <g id="Laptop-3" data-name="Laptop" transform="translate(0)" clip-path="url(#clip-path)">
+        <g id="Monitor" transform="translate(257.926 10.243)">
+          <g id="Camera_" data-name="Camera " transform="translate(0 0)">
+            <g transform="matrix(1, 0, 0, 1, -262.93, -10.24)" filter="url(#Oval)">
+              <circle id="Oval-2" data-name="Oval" cx="1.956" cy="1.956" r="1.956" transform="translate(262.93 10.24)" fill="url(#linear-gradient-4)"/>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -262.93, -10.24)" filter="url(#Lens)">
+              <circle id="Lens-2" data-name="Lens" cx="0.978" cy="0.978" r="0.978" transform="translate(263.9 11.22)" fill="#f0f0f0"/>
+            </g>
+          </g>
+        </g>
+        <g id="Board" transform="translate(0 284.486)">
+          <g id="Body">
+            <path id="Body-2" data-name="Body" d="M0,8.111V.551A.551.551,0,0,1,.551,0h517.9A.552.552,0,0,1,519,.551v7.56c-3.585.96-15.058,6.272-43.912,6.228s-213.657,0-213.657,0H46.881C13.531,14.341,4.242,9.3,0,8.111Z" fill="#f6f6f6"/>
+            <path id="Body-3" data-name="Body" d="M0,8.111V.551A.551.551,0,0,1,.551,0h517.9A.552.552,0,0,1,519,.551v7.56c-3.585.96-15.058,6.272-43.912,6.228s-213.657,0-213.657,0H46.881C13.531,14.341,4.242,9.3,0,8.111Z" fill="url(#linear-gradient-5)"/>
+          </g>
+          <g id="Board-2" data-name="Board" clip-path="url(#clip-path-2)">
+            <g transform="matrix(1, 0, 0, 1, -5, -284.49)" filter="url(#Line)">
+              <rect id="Line-2" data-name="Line" width="519.551" height="1.931" transform="translate(4.72 292.21)" stroke="rgba(0,0,0,0.2)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient-6)"/>
+            </g>
+            <g id="Edge">
+              <path id="Edge-2" data-name="Edge" d="M518.448,0A.552.552,0,0,1,519,.551V8H0V.551A.551.551,0,0,1,.551,0Z" fill="none"/>
+              <path id="Edge-3" data-name="Edge" d="M518.448,0A.552.552,0,0,1,519,.551V8H0V.551A.551.551,0,0,1,.551,0Z" fill="none"/>
+              <path id="Edge-4" data-name="Edge" d="M518.448,0A.552.552,0,0,1,519,.551V8H0V.551A.551.551,0,0,1,.551,0Z" fill="none"/>
+              <path id="Edge-5" data-name="Edge" d="M518.448,0A.552.552,0,0,1,519,.551V8H0V.551A.551.551,0,0,1,.551,0Z" fill="#f7f7f7"/>
+              <path id="Edge-6" data-name="Edge" d="M518.448,0A.552.552,0,0,1,519,.551V8H0V.551A.551.551,0,0,1,.551,0Z" fill="url(#linear-gradient-7)"/>
+            </g>
+            <g id="Center_Bar-2" data-name="Center Bar" transform="translate(221.72)">
+              <g transform="matrix(1, 0, 0, 1, -226.72, -284.49)" filter="url(#Center_Bar)">
+                <path id="Center_Bar-3" data-name="Center Bar" d="M0,0H75.561c0,2.413-1.882,5.791-6.847,5.791H6.358A6.407,6.407,0,0,1,0,0Z" transform="translate(226.72 284.49)" fill="url(#linear-gradient-8)"/>
+              </g>
+              <path id="Center_Bar-4" data-name="Center Bar" d="M0,0H75.561c0,2.413-1.882,5.791-6.847,5.791H6.358A6.407,6.407,0,0,1,0,0Z" transform="translate(0)" fill="url(#linear-gradient-9)"/>
+            </g>
+            <g id="Screws" transform="translate(12.42 10.479)">
+              <g id="Right" transform="translate(489.345 0.692) rotate(-4.992)">
+                <g id="Oval_16" data-name="Oval 16" transform="translate(0 0)">
+                  <ellipse id="Oval_16-2" data-name="Oval 16" cx="2.388" cy="0.434" rx="2.388" ry="0.434" fill="#f0f0f0"/>
+                  <ellipse id="Oval_16-3" data-name="Oval 16" cx="2.388" cy="0.434" rx="2.388" ry="0.434" fill="url(#linear-gradient-10)"/>
+                </g>
+                <path id="Star_1" data-name="Star 1" d="M.576.3,0,.176.865.151,1.244,0l.379.151.865.025L1.911.3l.238.167-.9-.081L.338.46Z" transform="translate(1.302 0.087)" fill="url(#linear-gradient-11)"/>
+              </g>
+              <g id="Center_Right" data-name="Center Right" transform="translate(316.713 1.379)">
+                <g id="Oval_16-4" data-name="Oval 16" transform="translate(0 0)">
+                  <ellipse id="Oval_16-5" data-name="Oval 16" cx="2.388" cy="0.434" rx="2.388" ry="0.434" fill="#f0f0f0"/>
+                  <ellipse id="Oval_16-6" data-name="Oval 16" cx="2.388" cy="0.434" rx="2.388" ry="0.434" fill="url(#linear-gradient-10)"/>
+                </g>
+                <path id="Star_1-2" data-name="Star 1" d="M.576.3,0,.176.865.151,1.244,0l.379.151.865.025L1.911.3l.238.167-.9-.081L.338.46Z" transform="translate(1.302 0.087)" fill="url(#linear-gradient-11)"/>
+              </g>
+              <g id="Center_Left" data-name="Center Left" transform="translate(172.561 1.379)">
+                <g id="Oval_16-7" data-name="Oval 16" transform="translate(0 0)">
+                  <ellipse id="Oval_16-8" data-name="Oval 16" cx="2.388" cy="0.434" rx="2.388" ry="0.434" fill="#f0f0f0"/>
+                  <ellipse id="Oval_16-9" data-name="Oval 16" cx="2.388" cy="0.434" rx="2.388" ry="0.434" fill="url(#linear-gradient-10)"/>
+                </g>
+                <path id="Star_1-3" data-name="Star 1" d="M.576.3,0,.176.865.151,1.244,0l.379.151.865.025L1.911.3l.238.167-.9-.081L.338.46Z" transform="translate(0.813 0.087)" fill="url(#linear-gradient-11)"/>
+              </g>
+              <g id="Left" transform="translate(0.076 0) rotate(4.992)">
+                <g id="Oval_16-10" data-name="Oval 16" transform="translate(0 0)">
+                  <ellipse id="Oval_16-11" data-name="Oval 16" cx="2.388" cy="0.434" rx="2.388" ry="0.434" fill="#f0f0f0"/>
+                  <ellipse id="Oval_16-12" data-name="Oval 16" cx="2.388" cy="0.434" rx="2.388" ry="0.434" fill="url(#linear-gradient-10)"/>
+                </g>
+                <path id="Star_1-4" data-name="Star 1" d="M.576.3,0,.176.865.151,1.244,0l.379.151.865.025L1.911.3l.238.167-.9-.081L.338.46Z" transform="translate(1.302 0.087)" fill="url(#linear-gradient-11)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Rectangle_602" data-name="Rectangle 602" transform="translate(58.244 268.132) rotate(-90)" fill="#f7f5f2" stroke="#707070" stroke-width="0.2">
+        <rect width="248.122" height="401.798" rx="24" stroke="none"/>
+        <rect x="0.1" y="0.1" width="247.922" height="401.598" rx="23.9" fill="none"/>
+      </g>
+      <rect id="Rectangle_603" data-name="Rectangle 603" width="21.61" height="7.204" rx="3.602" transform="translate(331.179 28.814)" fill="#e2e1e0"/>
+      <rect id="Rectangle_604" data-name="Rectangle 604" width="21.61" height="7.204" rx="3.602" transform="translate(372.8 28.814)" fill="#e2e1e0"/>
+      <rect id="Rectangle_605" data-name="Rectangle 605" width="22.412" height="7.204" rx="3.602" transform="translate(414.42 28.814)" fill="#e2e1e0"/>
+      <text id="BixHub" transform="translate(82.256 29.814)" fill="#747474" font-size="1" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">BixHub</tspan></text>
+      <line id="Line_145" data-name="Line 145" x2="401.522" transform="translate(58.876 42.607)" fill="none" stroke="#e1e1e1" stroke-width="2"/>
+      <path id="Path_2633" data-name="Path 2633" d="M0,0H402.127V120.726L0,184.022Z" transform="translate(57.571 43.286)" fill="#fff"/>
+      <g id="Rectangle_606" data-name="Rectangle 606" transform="translate(313.57 88.044)" fill="#fff" stroke="#c9a4ff" stroke-width="3">
+        <rect width="100.849" height="113.656" stroke="none"/>
+        <rect x="1.5" y="1.5" width="97.849" height="110.656" fill="none"/>
+      </g>
+      <path id="Path_2634" data-name="Path 2634" d="M2881,1307.867l27.008-74.287,25.4,44.535,15.7-28.314,31.208,57.93" transform="translate(-2566.519 -1107.122)" fill="#c9a4ff"/>
+      <g id="Rectangle_607" data-name="Rectangle 607" transform="translate(304.919 83.343)" fill="none" stroke="#000" stroke-width="3">
+        <rect width="100.849" height="112.856" stroke="none"/>
+        <rect x="1.5" y="1.5" width="97.849" height="109.856" fill="none"/>
+      </g>
+      <path id="Path_2635" data-name="Path 2635" d="M2881,1307.867l27.008-74.287,25.4,44.535,15.7-28.314,31.208,57.93" transform="translate(-2575.386 -1111.931)" fill="none" stroke="#000" stroke-width="3"/>
+      <text id="Web_Development" data-name="Web Development" transform="translate(82.256 117.749)" fill="#1e1e1e" font-size="17" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Web</tspan><tspan x="0" y="15">Development</tspan></text>
+      <rect id="Rectangle_608" data-name="Rectangle 608" width="58.429" height="16.008" transform="translate(85.458 160.519)" fill="#c9a4ff"/>
+      <g id="Rectangle_609" data-name="Rectangle 609" transform="translate(82.256 157.318)" fill="none" stroke="#1a1919" stroke-width="1">
+        <rect width="58.429" height="16.008" stroke="none"/>
+        <rect x="0.5" y="0.5" width="57.429" height="15.008" fill="none"/>
+      </g>
+      <path id="Path_2636" data-name="Path 2636" d="M2524.3,1218.482s1.71-2.772,3.142-2.772,1.26,2.772,2.588,2.772,1.364-2.772,2.727-2.772,1.456,2.772,2.725,2.772,1.052-2.772,2.357-2.772,2.861,2.772,2.861,2.772" transform="translate(-2418.237 -1048.731)" fill="none" stroke="#1a1919" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

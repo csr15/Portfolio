@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="393.809" height="362.469" viewBox="0 0 393.809 362.469">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="background-circle" cx="147.46" cy="147.46" rx="147.46" ry="147.46" fill="#f5f5f8"/>
+    </clipPath>
+  </defs>
+  <g id="about" transform="translate(-381.733 -1539.413)">
+    <g id="Polygon_9" data-name="Polygon 9" transform="translate(411.059 1539.413) rotate(45)" fill="none">
+      <path d="M13.818,7.474a5,5,0,0,1,8.654,0l9.473,16.362a5,5,0,0,1-4.327,7.505H8.672a5,5,0,0,1-4.327-7.505Z" stroke="none"/>
+      <path d="M 18.14500427246094 6.979310989379883 C 17.06194496154785 6.979310989379883 16.09137344360352 7.538900375366211 15.54872512817383 8.476202011108398 L 6.075954437255859 24.83826065063477 C 5.532184600830078 25.77751159667969 5.531173706054688 26.89959144592285 6.073265075683594 27.83982086181641 C 6.615354537963867 28.7800407409668 7.586935043334961 29.34137153625488 8.672233581542969 29.34137153625488 L 27.61777496337891 29.34137153625488 C 28.70307540893555 29.34137153625488 29.67465400695801 28.7800407409668 30.21674346923828 27.83982086181641 C 30.75883483886719 26.89959144592285 30.7578239440918 25.77751159667969 30.21405410766602 24.83826065063477 L 20.74128341674805 8.476202011108398 C 20.19863510131836 7.538900375366211 19.22806358337402 6.979310989379883 18.14500427246094 6.979310989379883 M 18.14500427246094 4.979316711425781 C 19.82711410522461 4.979316711425781 21.50922393798828 5.810920715332031 22.47213363647461 7.474130630493164 L 31.94490432739258 23.83619117736816 C 33.87472534179688 27.16952133178711 31.46943473815918 31.34137153625488 27.61777496337891 31.34137153625488 L 8.672233581542969 31.34137153625488 C 4.820573806762695 31.34137153625488 2.415283203125 27.16952133178711 4.345104217529297 23.83619117736816 L 13.81787490844727 7.474130630493164 C 14.78078460693359 5.810920715332031 16.46289443969727 4.979316711425781 18.14500427246094 4.979316711425781 Z" stroke="none" fill="#ff518a"/>
+    </g>
+    <path id="Path_2655" data-name="Path 2655" d="M374.449,202.839c42.1,1.889,84.951,1.939,119.939,25.422,38.117,25.584,71.557,62.564,78.713,107.91,7.09,44.93-16.319,87.915-41.873,125.544-23.742,34.962-56.282,62.049-95.761,77.13-40.07,15.306-84.2,21.445-124.6,7.047-40.6-14.467-73.648-45.8-92.681-84.474-18.113-36.8-12.014-78.331-7.52-119.1,4.892-44.377.467-96.3,34.458-125.246,34.045-28.993,84.654-16.24,129.326-14.235" transform="translate(175.795 1347.84)" fill="#c9a4ff" opacity="0.28"/>
+    <path id="Path_2656" data-name="Path 2656" d="M48.82,847.208c5.033-5.033,10.066-20.133,20.133-20.133s10.066,20.133,20.133,20.133,10.066-20.133,20.133-20.133,10.066,20.133,20.133,20.133,10.066-20.133,20.133-20.133,10.066,20.133,20.133,20.133,10.066-20.133,20.133-20.133,10.066,20.133,20.133,20.133,10.066-20.133,20.133-20.133,15.1,15.1,20.133,20.133" transform="translate(524.332 801.959)" fill="none" stroke="#ff518a" stroke-width="3"/>
+    <g id="Group_512" data-name="Group 512" transform="translate(420.707 1838.658)">
+      <rect id="Rectangle_37" data-name="Rectangle 37" width="5.454" height="23.305" rx="2.727" transform="translate(16.479) rotate(45)" fill="#ff518a"/>
+      <rect id="Rectangle_38" data-name="Rectangle 38" width="5.454" height="23.305" rx="2.727" transform="translate(20.336 16.479) rotate(135)" fill="#ff518a"/>
+    </g>
+    <g id="Ellipse_3065" data-name="Ellipse 3065" transform="translate(750 1768)" fill="#fff" stroke="#ff518a" stroke-width="2">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="8" fill="none"/>
+    </g>
+    <g id="avatar_circle" data-name="avatar/circle" transform="translate(408.436 1576.308)">
+      <g id="avatar-circle">
+        <ellipse id="background-circle-2" data-name="background-circle" cx="147.46" cy="147.46" rx="147.46" ry="147.46" fill="#f5f5f8"/>
+        <g id="avatar-circle-2" data-name="avatar-circle" clip-path="url(#clip-path)">
+          <g id="body" transform="translate(16.385 57.346)">
+            <g id="body_dark-brown" data-name="body/dark-brown" transform="translate(0)">
+              <path id="Fill_1" data-name="Fill 1" d="M238.363,203.36a65.538,65.538,0,0,0-36.232-25.841L167.94,167.94V143.365a61.341,61.341,0,0,0,24.53-47.272,16.383,16.383,0,1,0,.048-30V61.442A61.441,61.441,0,0,0,131.075,0h0A61.441,61.441,0,0,0,69.634,61.442v4.649a16.385,16.385,0,1,0,.048,30A61.339,61.339,0,0,0,94.21,143.365V167.94l-34.191,9.578A65.538,65.538,0,0,0,23.787,203.36L0,237.771v24.38H262.151v-24.38Z" fill="#ffcf83"/>
+              <path id="Fill_4" data-name="Fill 4" d="M21.529,12.288A61.3,61.3,0,0,1,0,8.4a61.085,61.085,0,0,0,33,9.622,61.192,61.192,0,0,0,25.4-5.5V0A61.168,61.168,0,0,1,21.529,12.288Z" transform="translate(109.546 143.364)" fill="#f7a74f"/>
+              <path id="Stroke_6" data-name="Stroke 6" d="M12.2,11.4A9.017,9.017,0,0,0,0,.708" transform="translate(59.573 72.092)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+              <path id="Stroke_8" data-name="Stroke 8" d="M.32,11.4A9.018,9.018,0,0,1,12.519.708" transform="translate(190.06 72.092)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+          <g id="mouth" transform="translate(114.691 167.539)">
+            <rect id="mouth_default_background" data-name="mouth/default background" width="65.538" height="49.153" fill="none"/>
+            <path id="default" d="M32.769,0A16.384,16.384,0,1,1,0,0Z" transform="translate(16.385 7.782)" fill="#fff"/>
+          </g>
+          <g id="eyes" transform="translate(106.499 124.522)">
+            <rect id="eyes_default_background" data-name="eyes/default background" width="81.922" height="32.769" fill="none"/>
+            <path id="eye-right" d="M13.108,6.554A6.554,6.554,0,1,1,6.554,0a6.554,6.554,0,0,1,6.554,6.554" transform="translate(61.442 9.831)" fill="#00004d"/>
+            <path id="eye-left" d="M13.108,6.554A6.554,6.554,0,1,1,6.554,0a6.554,6.554,0,0,1,6.554,6.554" transform="translate(7.373 9.831)" fill="#00004d"/>
+          </g>
+          <g id="nose" transform="translate(133.533 124.522)">
+            <rect id="nose_default_background" data-name="nose/default background" width="32.769" height="49.153" fill="none"/>
+            <path id="nose-2" data-name="nose" d="M3.277,0l8.192,27.854L0,29.492" transform="translate(10.65 9.831)" fill="none" stroke="#00004d" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+          </g>
+          <g id="head" transform="translate(81.922 53.249)">
+            <path id="short-01" d="M131.075,69.019V65.538A65.538,65.538,0,1,0,0,65.538v3.481a16.322,16.322,0,0,1,8.871,4.361A82.035,82.035,0,0,0,26.633,46.714a81.55,81.55,0,0,0,38.9,9.812,81.55,81.55,0,0,0,38.9-9.812A82.035,82.035,0,0,0,122.2,73.379a16.322,16.322,0,0,1,8.871-4.361" transform="translate(0 0)" fill="#00004d"/>
+          </g>
+          <g id="clothing" transform="translate(16.384 225.286)">
+            <path id="t-shirt" d="M262.151,69.83,238.363,35.419A65.537,65.537,0,0,0,202.131,9.578L167.94,0a36.865,36.865,0,0,1-36.865,36.865h0A36.865,36.865,0,0,1,94.21,0L60.019,9.578A65.542,65.542,0,0,0,23.787,35.419L0,69.83v24.38H262.151Z" transform="translate(0 0)" fill="#ff518a"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
