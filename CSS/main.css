@@ -27,6 +27,15 @@ body {
   overflow-x: hidden;
 }
 
+#loader {
+  width: 100vw;
+  height: 100v;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: red;
+}
+
 img,
 svg {
   width: 100%;
@@ -1030,13 +1039,16 @@ p {
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
-    padding: 1rmm;
     text-align: center;
+    padding: 2rem;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
+  }
+  .header .header__content h1 {
+    margin: 10px auto;
   }
   .header .header__content p {
     width: 80%;
@@ -1169,6 +1181,7 @@ p {
   }
   .header .header__content {
     text-align: center;
+    padding: 1rem;
   }
   .header .header__content h1 {
     margin: 5px auto;

@@ -1034,13 +1034,17 @@ p {
 
     .header__content {
       flex: 1;
-      padding: 1rmm;
       text-align: center;
+      padding: 2rem;
       border-radius: 0;
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       -ms-border-radius: 0;
       -o-border-radius: 0;
+
+      h1 {
+        margin: 10px auto;
+      }
 
       p {
         width: 80%;
@@ -1210,6 +1214,8 @@ p {
   .header {
     .header__content {
       text-align: center;
+      padding: 1rem;
+
       h1 {
         margin: 5px auto;
 

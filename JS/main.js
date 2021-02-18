@@ -21,18 +21,3 @@ const openDetails = () => {
   serviceDetails.style.transform = "translate(-50%, -50%)";
   serviceDetailsBackdrop.style.display = "block";
 };
-
-const closeDetails = () => {
-  serviceDetails.style.transform = "translate(-50%, 100%)";
-  serviceDetailsBackdrop.style.display = "none";
-};
-
-//Scroll Trigger
-window.onscroll = () => {
-  document.querySelector(".project__wave").style.transform = `translateX(-${
-    window.scrollY / 10
-  }%)`;
-  document.querySelector(
-    ".stats__bobular__image"
-  ).style.transform = `translate( -${window.scrollY / 40}%, -50%)`;
-};
