@@ -278,7 +278,9 @@
                                     <p>shareXP is used to share your experience with others on how you succeed. It can
                                         be any experience that might help other people who are struggling towards
                                         success!</p>
-                                    <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    <a href="https://sharexp.netlify.app" target="_blank">
+                                        <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </a>
                                 </div>
                             </div>
                         </article>
@@ -289,7 +291,9 @@
                                     <h5>MERN Stack</h5>
                                     <p>Foodgrammer is an online platform to share your recipes with ingredients and
                                         instructins to prepare it. A better recipe gets a better likes and shares</p>
-                                    <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    <a href="https://foodgrammer.netlify.app" target="_blank">
+                                        <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </a>
                                 </div>
                             </div>
                         </article>
@@ -301,7 +305,9 @@
                                     <p>To see real time data like cases, deaths, recovery rate, active cases and much
                                         more of COVID-19 cases all
                                         around the world with visually represented graph</p>
-                                    <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    <a href="https://csr-tracker-15.web.app" target="_blank">
+                                        <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </a>
                                 </div>
                             </div>
                         </article>
@@ -313,7 +319,9 @@
                                     <p>A static full page landing website with stunning UI elements and enhanced user
                                         experience
                                         built on top of bootstrap with Cross-Browser compatability</p>
-                                    <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    <a href="https://gowthamsethusaravanan.web.app" target="_blank">
+                                        <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </a>
                                 </div>
                             </div>
                         </article>
@@ -325,7 +333,9 @@
                                     <p>A static full page landing website with stunning UI elements and enhanced user
                                         experience
                                         built on top of bootstrap with Cross-Browser compatability</p>
-                                    <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    <a href="https://boxdevs.web.app" target="_blank">
+                                        <div class="btn__project"><i class='bx bx-right-arrow-alt'></i></div>
+                                    </a>
                                 </div>
                             </div>
                         </article>
@@ -692,6 +702,11 @@
             "#perspaleta1", { delay: 0.5, transformOrigin: "center", opacity: 0, rotate: -180 },
             ""
         );
+
+        window.onscroll = () => {
+            document.querySelector(".project__wave").style.transform = `translate(-${window.scrollY / 35
+                }%)`;
+        };
 
     </script>
 </body>

@@ -950,8 +950,17 @@ p {
 .body__wrapper .footer .section__wrapper .others i {
   color: #6e6e6e;
   display: inline;
-  font-size: 1.5rem !important;
+  font-size: 1.6rem !important;
   margin: 5px 15px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.body__wrapper .footer .section__wrapper .others i:hover {
+  color: #944dfb;
 }
 
 .body__wrapper .footer .section__wrapper .others i:first-child {
