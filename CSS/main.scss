@@ -338,11 +338,13 @@ p {
     padding: 0 2rem 0 5rem;
 
     h1 {
+
       span {
         color: transparent;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: $accent;
       }
+      
     }
 
     h5 {
