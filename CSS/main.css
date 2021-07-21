@@ -1178,38 +1178,38 @@ p {
         flex-basis: 100%;
   }
   .body__wrapper .stats .stats__content .stats__github {
-    margin-top: 20px;
+    margin-top: 30px;
   }
-  .body__wrapper .stats .services .section__wrapper {
+  .body__wrapper .services .section__wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-top: 1rem;
   }
-  .body__wrapper .stats .services .section__wrapper > * {
+  .body__wrapper .services .section__wrapper > * {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  .body__wrapper .stats .services .section__wrapper .card {
+  .body__wrapper .services .section__wrapper .card {
     margin: 20px auto;
   }
-  .body__wrapper .stats .services .section__wrapper .card img,
-  .body__wrapper .stats .services .section__wrapper .card svg {
+  .body__wrapper .services .section__wrapper .card img,
+  .body__wrapper .services .section__wrapper .card svg {
     width: 350px;
   }
-  .body__wrapper .stats .services .section__wrapper .card .web {
+  .body__wrapper .services .section__wrapper .card .web {
     width: 350px;
   }
-  .body__wrapper .stats .services .services__details {
+  .body__wrapper .services .services__details {
     width: 70%;
   }
-  .body__wrapper .stats .footer {
+  .body__wrapper .footer {
     padding: 0.5rem 0 1.6rem;
   }
-  .body__wrapper .stats .footer .section__wrapper .footer__image img,
-  .body__wrapper .stats .footer .section__wrapper .footer__image svg {
+  .body__wrapper .footer .section__wrapper .footer__image img,
+  .body__wrapper .footer .section__wrapper .footer__image svg {
     width: 100%;
   }
-  .body__wrapper .stats .footer .section__wrapper .footer__section .footer__item {
+  .body__wrapper .footer .section__wrapper .footer__section .footer__item {
     margin: 5px 0;
   }
 }
@@ -1271,44 +1271,44 @@ p {
     margin: 5px auto;
   }
   .body__wrapper .projects .section__wrapper .projects__list .project__item .project__item__container {
-    margin: 1rem 0rem;
-    padding: 15px;
+    margin: 1rem 0.3rem;
+    padding: 15px 10px;
   }
-  .services {
+  .body__wrapper .services {
     padding: 3rem 0;
   }
-  .services .section__wrapper .card {
+  .body__wrapper .services .section__wrapper .card {
     height: 350px;
   }
-  .services .section__wrapper .card img,
-  .services .section__wrapper .card svg {
+  .body__wrapper .services .section__wrapper .card img,
+  .body__wrapper .services .section__wrapper .card svg {
     width: 200px;
   }
-  .services .section__wrapper .card .web {
+  .body__wrapper .services .section__wrapper .card .web {
     width: 250px;
   }
-  .services .services__details {
+  .body__wrapper .services .services__details {
     width: 98%;
     top: 80%;
     padding: 2rem 1rem;
   }
-  .footer {
+  .body__wrapper .footer {
     padding: 0 0 0.5rem;
   }
-  .footer .section__wrapper {
+  .body__wrapper .footer .section__wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .footer .section__wrapper > * {
+  .body__wrapper .footer .section__wrapper > * {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  .footer .section__wrapper .footer__image img,
-  .footer .section__wrapper .footer__image svg {
+  .body__wrapper .footer .section__wrapper .footer__image img,
+  .body__wrapper .footer .section__wrapper .footer__image svg {
     width: 50%;
     margin: -30px auto;
   }
-  .footer .section__wrapper .footer__section {
+  .body__wrapper .footer .section__wrapper .footer__section {
     width: 90%;
     margin: auto;
   }
@@ -1340,20 +1340,6 @@ p {
   }
   .body__wrapper .stats {
     padding: 3rem 0 1rem;
-  }
-  .body__wrapper .stats .stats__content .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .body__wrapper .stats .stats__content .row > * {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-  }
-  .body__wrapper .stats .stats__content .row .stats__card {
-    margin: 10px;
-  }
-  .body__wrapper .stats .stats__content .row .stats__card .stats__card__container {
-    background: linear-gradient(-135deg, rgba(148, 77, 251, 0.1), rgba(148, 77, 251, 0.5));
   }
   .body__wrapper .footer .section__wrapper .footer__image img,
   .body__wrapper .footer .section__wrapper .footer__image svg {

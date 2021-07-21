@@ -1182,51 +1182,51 @@ p {
         }
 
         .stats__github {
-          margin-top: 20px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    .services {
+      .section__wrapper {
+        flex-wrap: wrap;
+        margin-top: 1rem;
+
+        & > * {
+          flex-basis: 100%;
+        }
+
+        .card {
+          margin: 20px auto;
+
+          img,
+          svg {
+            width: 350px;
+          }
+          .web {
+            width: 350px;
+          }
         }
       }
 
-      .services {
-        .section__wrapper {
-          flex-wrap: wrap;
-          margin-top: 1rem;
-
-          & > * {
-            flex-basis: 100%;
-          }
-
-          .card {
-            margin: 20px auto;
-
-            img,
-            svg {
-              width: 350px;
-            }
-            .web {
-              width: 350px;
-            }
-          }
-        }
-
-        .services__details {
-          width: 70%;
-        }
+      .services__details {
+        width: 70%;
       }
+    }
 
-      .footer {
-        padding: 0.5rem 0 1.6rem;
+    .footer {
+      padding: 0.5rem 0 1.6rem;
 
-        .section__wrapper {
-          .footer__image {
-            img,
-            svg {
-              width: 100%;
-            }
+      .section__wrapper {
+        .footer__image {
+          img,
+          svg {
+            width: 100%;
           }
-          .footer__section {
-            .footer__item {
-              margin: 5px 0;
-            }
+        }
+        .footer__section {
+          .footer__item {
+            margin: 5px 0;
           }
         }
       }
@@ -1277,6 +1277,7 @@ p {
         }
       }
     }
+
     .body__wrapper {
       width: 100%;
       padding: 0 0.5rem;
@@ -1307,61 +1308,61 @@ p {
               margin: 5px auto;
 
               .project__item__container {
-                margin: 1rem 0rem;
-                padding: 15px;
+                margin: 1rem 0.3rem;
+                padding: 15px 10px;
               }
             }
           }
         }
       }
-    }
 
-    .services {
-      padding: 3rem 0;
+      .services {
+        padding: 3rem 0;
 
-      .section__wrapper {
-        .card {
-          height: 350px;
+        .section__wrapper {
+          .card {
+            height: 350px;
 
-          img,
-          svg {
-            width: 200px;
+            img,
+            svg {
+              width: 200px;
+            }
+
+            .web {
+              width: 250px;
+            }
           }
+        }
 
-          .web {
-            width: 250px;
-          }
+        .services__details {
+          width: 98%;
+          top: 80%;
+          padding: 2rem 1rem;
         }
       }
 
-      .services__details {
-        width: 98%;
-        top: 80%;
-        padding: 2rem 1rem;
-      }
-    }
+      .footer {
+        padding: 0 0 0.5rem;
 
-    .footer {
-      padding: 0 0 0.5rem;
+        .section__wrapper {
+          flex-wrap: wrap;
 
-      .section__wrapper {
-        flex-wrap: wrap;
-
-        & > * {
-          flex-basis: 100%;
-        }
-
-        .footer__image {
-          img,
-          svg {
-            width: 50%;
-            margin: -30px auto;
+          & > * {
+            flex-basis: 100%;
           }
-        }
 
-        .footer__section {
-          width: 90%;
-          margin: auto;
+          .footer__image {
+            img,
+            svg {
+              width: 50%;
+              margin: -30px auto;
+            }
+          }
+
+          .footer__section {
+            width: 90%;
+            margin: auto;
+          }
         }
       }
     }
@@ -1410,28 +1411,6 @@ p {
 
     .stats {
       padding: 3rem 0 1rem;
-
-      .stats__content {
-        .row {
-          flex-wrap: wrap;
-
-          & > * {
-            flex-basis: 100%;
-          }
-
-          .stats__card {
-            margin: 10px;
-
-            .stats__card__container {
-              background: linear-gradient(
-                -135deg,
-                rgba(148, 77, 251, 0.1),
-                rgba(148, 77, 251, 0.5)
-              );
-            }
-          }
-        }
-      }
     }
 
     .footer {
