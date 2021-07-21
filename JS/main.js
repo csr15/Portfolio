@@ -27,5 +27,14 @@ const closeDetails = () => {
   serviceDetailsBackdrop.style.display = "none";
 };
 
-//Scroll Trigger
+const bobular = document.getElementById("bobular");
 
+const github = () => {
+  bobular.style.transform = "translate(-50%, -50%) scale(1)";
+
+  setTimeout(() => {
+    window.open("https://github.com/csr15");
+    bobular.style.transform = "translate(-50%, -50%) scale(0)";
+  }, 300);
+};
+//Scroll Trigger

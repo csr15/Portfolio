@@ -755,10 +755,46 @@ p {
   font-size: 28px;
 }
 
+.body__wrapper .stats .stats__github .bobular__container {
+  position: relative;
+}
+
+.body__wrapper .stats .stats__github #bobular {
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0);
+  -webkit-transform: translate(-50%, -50%) scale(0);
+  -moz-transform: translate(-50%, -50%) scale(0);
+  -ms-transform: translate(-50%, -50%) scale(0);
+  -o-transform: translate(-50%, -50%) scale(0);
+  top: 50%;
+  left: 20%;
+  z-index: 2;
+  width: 200vw;
+  height: 200vh;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #944dfb;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  animation: all 0.3s ease;
+  -webkit-animation: all 0.3s ease;
+}
+
 .body__wrapper .stats .stats__github button {
   background-color: #000000;
   color: #ffffff;
   padding: 12px 30px;
+}
+
+.body__wrapper .stats .stats__github button ion-icon {
+  font-size: 20px;
+  margin: 0 0 -5px 5px;
 }
 
 .body__wrapper .services {

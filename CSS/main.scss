@@ -338,13 +338,11 @@ p {
     padding: 0 2rem 0 5rem;
 
     h1 {
-
       span {
         color: transparent;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: $accent;
       }
-      
     }
 
     h5 {
@@ -719,10 +717,46 @@ p {
         font-size: 28px;
       }
 
+      .bobular__container {
+        position: relative;
+      }
+
+      #bobular {
+        position: absolute;
+        transform: translate(-50%, -50%) scale(0);
+        -webkit-transform: translate(-50%, -50%) scale(0);
+        -moz-transform: translate(-50%, -50%) scale(0);
+        -ms-transform: translate(-50%, -50%) scale(0);
+        -o-transform: translate(-50%, -50%) scale(0);
+        top: 50%;
+        left: 20%;
+        z-index: 2;
+        width: 200vw;
+        height: 200vh;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: $primary;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        animation: all 0.3s ease;
+        -webkit-animation: all 0.3s ease;
+}
+
       button {
         background-color: $black;
         color: $white;
         padding: 12px 30px;
+
+        ion-icon {
+          font-size: 20px;
+          margin: 0 0 -5px 5px;
+        }
       }
     }
   }
