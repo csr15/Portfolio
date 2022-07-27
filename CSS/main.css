@@ -806,6 +806,9 @@ p {
   margin: 0px;
   font-weight: 500;
 }
+.body__wrapper .expeirence {
+  position: relative;
+}
 .body__wrapper .expeirence .exp_container {
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -850,6 +853,13 @@ p {
   font-size: 12px;
   padding: 2px 10px;
   border-radius: 3px;
+}
+.body__wrapper .expeirence .bob_img {
+  position: absolute;
+  left: 100%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
 .body__wrapper .footer {
   padding: 2rem 0 0;
@@ -1100,6 +1110,9 @@ p {
   }
   .body__wrapper .skills .skill_container {
     width: 100%;
+  }
+  .body__wrapper .expeirence .bob_img {
+    display: none;
   }
   .body__wrapper .footer {
     padding: 0.5rem 0 1.6rem;

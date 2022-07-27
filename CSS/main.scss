@@ -967,6 +967,8 @@ p {
 
   //Experience
   .expeirence {
+    position: relative;
+
     .exp_container {
       @extend .center;
       flex-wrap: wrap;
@@ -1019,6 +1021,14 @@ p {
           }
         }
       }
+    }
+
+    .bob_img {
+      position: absolute;
+      left: 100%;
+      top: 20%;
+      transform: translate(-50%, -50%);
+      z-index: -1;
     }
   }
 
@@ -1367,6 +1377,12 @@ p {
     .skills {
       .skill_container {
         width: 100%;
+      }
+    }
+
+    .expeirence{
+      .bob_img{
+        display: none;
       }
     }
 
