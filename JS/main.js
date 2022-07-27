@@ -16,17 +16,6 @@ const closeNavbar = () => {
   backdrop.style.display = "none";
 };
 
-//Service Section
-const openDetails = () => {
-  serviceDetails.style.transform = "translate(-50%, -50%)";
-  serviceDetailsBackdrop.style.display = "block";
-};
-
-const closeDetails = () => {
-  serviceDetails.style.transform = "translate(-50%, 100%)";
-  serviceDetailsBackdrop.style.display = "none";
-};
-
 const bobular = document.getElementById("bobular");
 
 const github = () => {

@@ -42,6 +42,7 @@
             <li class="navbar__item"><a href="#about"><span>About</span></a></li>
             <li class="navbar__item"><a href="#projects"><span>Projects</span></a></li>
             <li class="navbar__item"><a href="#services"><span>Services</span></a></li>
+            <li class="navbar__item"><a href="#skills"><span>Skills</span></a></li>
             <li class="navbar__item contact"><a href="#contact"><span>Contact</span></a></li>
           </ul>
         </div>
@@ -56,6 +57,7 @@
           <li class="navbar__item" onclick="closeNavbar()"><a href="#about">About</a></li>
           <li class="navbar__item" onclick="closeNavbar()"><a href="#projects">Projects</a></li>
           <li class="navbar__item" onclick="closeNavbar()"><a href="#services">Services</a></li>
+          <li class="navbar__item" onclick="closeNavbar()"><a href="#skills">Skills</a></li>
           <li class="navbar__item" onclick="closeNavbar()"><a href="#contact">Contact</a></li>
         </ul>
         <div class="navbar__mobile__logo"><img src="./assets/SVG/logo.svg" alt="CSR"></div>
@@ -69,7 +71,7 @@
         <!-- <h5>Thin. Crack. Solve.</h5> -->
         <h1 class="main__title">An <span>Idea</span> makes me different</h1>
         <p>This is Ragul CS, a self-thought developer passionate about cracking new ideas and solutions-oriented
-          problem-solver</p>
+          problem-solver.</p>
         <a href="#contact"><button class="btn__outline" id="header__void"><span>Contact</span></button></a>
       </div>
       <img src="./assets/patterns/cross.svg" id="header__void" class="glass__pattern" alt="CSR">
@@ -175,8 +177,6 @@
                     <div class="project__tool">
                       <i class='bx bxl-react'></i>
                       <p>MERN</p>
-
-
                     </div>
                     <div class="project__tool">
                       <i class='bx bxl-bootstrap'></i>
@@ -188,6 +188,49 @@
                     success!</p>
                   <div class="project__item__footer">
                     <a href="https://sharexp.netlify.app" target="_blank">
+                      <button class="btn__project">Visit Site<i class='bx bx-right-arrow-alt'></i>
+                      </button>
+                    </a>
+                    <div class="footer__platform">
+                      <ion-icon name="laptop-outline"></ion-icon>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="project__item">
+              <div class="project__item__container">
+                <h1>Filmly</h1>
+                <div class="project__item__body">
+                  <div class="project__item__tools">
+                    <div class="project__tool">
+                      <i class='bx bxl-react'></i>
+                      <p>React</p>
+                    </div>
+                    <div class="project__tool">
+                      <i class='bx bxl-nodejs'></i>
+                      <p>NodeJS</p>
+                    </div>
+                    <div class="project__tool">
+                      <i class='bx bxl-postgresql'></i>
+                      <p>PostgresSQL</p>
+                    </div>
+                    <div class="project__tool">
+                      <img src="./assets/icons/sequelize.png" alt="CSR">
+                      <p>Sequelize</p>
+                    </div>
+                    <div class="project__tool">
+                      <img src="./assets/icons/redis.png" alt="CSR">
+                      <p>Redis</p>
+                    </div>
+                    <div class="project__tool">
+                      <img src="./assets/icons/elastic.png" alt="CSR">
+                      <p>Elastic Search</p>
+                    </div>
+                  </div>
+                  <p>Filmly is a OTT theme web app where you can see numbers of movies, actors and directors you can also search movie, actor and directors. List all the movies under a genre and much more.</p>
+                  <div class="project__item__footer">
+                    <a href="https://github.com/csr15/filmly" target="_blank">
                       <button class="btn__project">Visit Site<i class='bx bx-right-arrow-alt'></i>
                       </button>
                     </a>
@@ -298,34 +341,6 @@
                     </a>
                     <div class="footer__platform">
                       <ion-icon name="laptop-outline"></ion-icon>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-            <article class="project__item">
-              <div class="project__item__container">
-                <h1>GP Story</h1>
-                <div class="project__item__body">
-                  <div class="project__item__tools">
-                    <div class="project__tool">
-                      <i class='bx bxl-react'></i>
-                      <p>React Native</p>
-                    </div>
-                    <div class="project__tool">
-                      <i class='bx bxl-firebase'></i>
-                      <p>Firestore</p>
-                    </div>
-                  </div>
-                  <p>Foodgrammer is an online platform to share your recipes with ingredients and
-                    instructins to prepare it. A better recipe gets a better likes and shares</p>
-                  <div class="project__item__footer">
-                    <a href="https://gpstory.netlify.app" target="_blank">
-                      <button class="btn__project">Visit Site<i class='bx bx-right-arrow-alt'></i>
-                      </button>
-                    </a>
-                    <div class="footer__platform">
-                      <ion-icon name="logo-android"></ion-icon>
                     </div>
                   </div>
                 </div>
@@ -533,12 +548,12 @@
         <div class="section__wrapper">
           <div class="card">
             <h1>Web Development</h1>
-            <button class="btn__primary" onclick="openDetails()"><span>More Details</span></button>
+            <button class="btn__primary disable_btn"><span>More Details</span></button>
             <img src="./assets/SVG/laptop.svg" class="web" alt="CSR">
           </div>
           <div class="card">
             <h1>Mobile App Development</h1>
-            <button class="btn__primary" onclick="openDetails()"><span>More Details</span></button>
+            <button class="btn__primary disable_btn"><span>More Details</span></button>
             <img src="./assets/SVG/mobile.svg" class="mobile" alt="CSR">
           </div>
         </div>
@@ -553,74 +568,160 @@
               instructors. Also to improve efficency on those languages I had developed some projects
               which has leveled up my skills</p>
           </div>
-          <div class="services__details__section">
-            <h4>Languages and Tools</h4>
-            <div class="services__details__section__wrapper">
-              <div class="services__details__card">
-                <i class='bx bxl-html5'></i>
-                <p>HTML5</p>
-              </div>
-              <div class="services__details__card">
-                <i class='bx bxl-css3'></i>
-                <p>CSS3</p>
-              </div>
-              <div class="services__details__card">
-                <i class='bx bxl-sass'></i>
-                <p>SASS</p>
-              </div>
-              <div class="services__details__card">
-                <i class='bx bxl-bootstrap'></i>
-                <p>Bootstrap</p>
-              </div>
-              <div class="services__details__card">
-                <i class='bx bxl-javascript'></i>
-                <p>JavaScript</p>
-              </div>
-              <div class="services__details__card">
-                <i class='bx bxl-react'></i>
-                <p>React JS</p>
-              </div>
-              <div class="services__details__card">
-                <i class='bx bxl-react'></i>
-                <p>React Native</p>
-              </div>
-              <div class="services__details__card">
-                <i class='bx bxl-nodejs'></i>
-                <p>Node JS</p>
-              </div>
-              <div class="services__details__card">
-                <img src="./assets/icons/mongodb.svg" alt="CSR">
-                <p>MongoDB</p>
-              </div>
-              <div class="services__details__card">
-                <p>PostgresSQL</p>
-              </div>
-              <div class="services__details__card">
-                <p>Sequelize</p>
-              </div>
-              <div class="services__details__card">
-                <p>Redis</p>
-              </div>
-              <div class="services__details__card">
-                <img src="./assets/icons/expressjs.svg" alt="CSR">
-                <p>Express JS</p>
-              </div>
-               <div class="services__details__card">
-                <p>Hapi JS</p>
-              </div>
-              <div class="services__details__card">
-                <i class='bx bxl-firebase'></i>
-                <p>Firebase</p>
-              </div>
-              <div class="services__details__card">
-                <img src="./assets/icons/vscode.svg" alt="CSR">
-                <p>VS code</p>
-              </div>
+        </div>
+      </section>
+      <!--End of Services-->
+
+      <!--Skills-->
+      <section class="skills" id="skills">
+        <div class="section__header">
+          <h5>What I know?</h5>
+          <h1 class="main__title">Skills</h1>
+        </div>
+       <div class="skill_container">
+        <div class="skill">
+          <i class='bx bxl-html5'></i>
+          <p>HTML5</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-css3'></i>
+          <p>CSS3</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-sass'></i>
+          <p>SASS</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-bootstrap'></i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-javascript'></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-react'></i>
+          <p>React JS</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-react'></i>
+          <p>React Native</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-nodejs'></i>
+          <p>Node JS</p>
+        </div>
+        <div class="skill">
+          <img src="./assets/icons/expressjs.svg" alt="CSR">
+          <p>Express JS</p>
+        </div>
+         <div class="skill">
+          <img src="./assets/icons/hapi.png" alt="CSR">
+          <p>Hapi JS</p>
+        </div>
+        <div class="skill">
+          <img src="./assets/icons/mongodb.svg" alt="CSR">
+          <p>MongoDB</p>
+        </div>
+        <div class="skill">
+          <img src="./assets/icons/mongodb.svg" alt="CSR">
+          <p>Mongoose</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-postgresql'></i>
+          <p>PostgresSQL</p>
+        </div>
+        <div class="skill">
+          <img src="./assets/icons/sequelize.png" alt="CSR">
+          <p>Sequelize</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-firebase'></i>
+          <p>Firebase</p>
+        </div>
+        <div class="skill">
+          <img src="./assets/icons/elastic.png" alt="CSR">
+          <p>Elastic Search</p>
+        </div>
+        <div class="skill">
+          <img src="./assets/icons/redis.png" alt="CSR">
+          <p>Redis</p>
+        </div>
+        <div class="skill">
+          <img src="./assets/icons/jwt.svg" alt="CSR">
+          <p>JWT</p>
+        </div>
+        <div class="skill">
+          <img src="./assets/icons/dsa.png" alt="CSR">
+          <p>Data Structures and Algorithms</p>
+        </div>
+        <div class="skill">
+          <img src="./assets/icons/vscode.svg" alt="CSR">
+          <p>VS code</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-figma'></i>
+          <p>Figma</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-adobe'></i>     
+          <p>Adobe XD</p>
+        </div>
+        <div class="skill">
+          <i class='bx bxl-git'></i>          
+          <p>Git</p>
+        </div>
+       </div>
+      </section>
+      <!--End of Skills-->
+
+      <!--Experiences-->
+      <section class="expeirence" id="expeirence">
+        <div class="section__header">
+          <h5>What is my Experience?</h5>
+          <h1 class="main__title">Experiences</h1>
+        </div>
+        <div class="exp_container">
+          <div class="exp_card">
+            <h6>Zumen</h6>
+            <h1>Frontend Developer</h1>
+            <div class="tools">
+              <span>React</span>
+              <span>Redux</span>
+              <span>MongoDB</span>
+              <span>Figma</span>
+              <span>SCSS</span>
+              <span>Github</span>
+              <span>Debugging</span>
+
+              <p>
+                Worked as a part of Procurement SaaS Product where I optimized React Frontend to handle thousands of realtime data and fixed blocker issues. Also fixed 300 crtical issues in vulnerabilities.
+              </p>
+            </div>
+          </div>
+          <div class="exp_card">
+            <h6>SurveySparrow</h6>
+            <h1>Product Developer</h1>
+            <div class="tools">
+              <span>React</span>
+              <span>Redux</span>
+              <span>Figma</span>
+              <span>SCSS</span>
+              <span>Node JS</span>
+              <span>Hapi JS</span>
+              <span>PostgresSQL</span>
+              <span>Sequelize</span>
+              <span>Redis</span>
+              <span>Elastic Search</span>
+
+              <p>
+                Working as a part of the Core team which develops new builder features and end-user survey optimizations using NodeJS, React, Redux and Postgres.
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <!--End of Services-->
+      <!--End of Experiences-->
 
       <!--Footer-->
       <footer class="footer" id="contact">
@@ -651,12 +752,12 @@
                     <span class="icon">
                       <i class='bx bxs-phone'></i>
                     </span>
-                    <h5>+91 9080474179</h5>
+                    <h5>(+91) 90804 74179</h5>
                   </div>
                 </a>
               </div>
               <div class="footer__item">
-                <a href="./assets/resume/v-4.pdf" download>
+                <a href="./assets/resume/Ragul_CS_Resume.pdf" download>
                   <div class="footer__wrapper">
                     <span class="icon">
                       <i class='bx bxs-file-blank'></i>
@@ -669,7 +770,6 @@
             <div class="footer__section others">
               <h3>Others</h3>
               <a href="https://www.linkedin.com/in/ragul-cs-57859118a/"><i class='bx bxl-linkedin-square'></i></a>
-              </a>
               </a>
               <a href="https://stackoverflow.com/users/10106311/ragul-cs"><i class='bx bxl-stack-overflow'></i></a>
               </a>
